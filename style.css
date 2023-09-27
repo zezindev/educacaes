@@ -39,8 +39,8 @@ header {
   width: 100%;
   background: linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.2),
-    rgba(255, 255, 255, 0)
+    rgba(34, 59, 92, 0.2),
+    rgba(2, 38, 84, 0.85)
   );
   backdrop-filter: blur(1rem);
   -webkit-backdrop-filter: blur(1rem);
@@ -166,7 +166,7 @@ ul li a:hover {
   font-family: var(--ff-all);
 
   color: var(--color-terciary);
-  background-color: var(--bg-primary);
+  border-bottom: 1rem solid var(--color-primary);
 }
 
 .div-content h1 {
@@ -184,8 +184,110 @@ ul li a:hover {
   height: 60%;
 }
 
-#div-content-two{
-  border-top: 1rem solid #c48b3a;
+#div-content-one {
+  background-image: url(./imgs/wallpaper-one.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#div-content-two {
+  background-color: var(--color-terciary);
+  color: var(--bg-primary);
+}
+
+#div-content-three {
+  background-image: url(./imgs/wallpaper-two.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#div-content-three img {
+  height: 65%;
+  border-radius: 2.3rem;
+}
+
+.sub {
+  border-bottom: 0.5rem solid var(--color-primary);
+}
+
+.div-content-four {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+
+  font-family: var(--ff-all);
+
+  color: var(--color-terciary);
+  border-bottom: 1rem solid var(--color-primary);
+}
+
+.info {
+  width: clamp(33rem, 80%, 140rem);
+
+  margin: 8rem auto 0;
+  text-align: center;
+
+  color: var(--bg-primary);
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.info h1 {
+  font-size: var(--fs-header-sm);
+
+  margin-bottom: 2rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+
+  gap: 4%;
+  margin: 8rem 2rem;
+
+  position: relative;
+}
+
+.card {
+  flex: 1;
+  color: var(--color-secondary);
+
+  padding: 2rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  border-radius: 3rem;
+  box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.37);
+
+  transition: transform 0.3s ease-out;
+  transform: translateY(0);
+}
+
+.card img {
+  border-radius: 0;
+  height: 12rem;
+  box-shadow: none;
+}
+
+.card:hover {
+  transform: translate(-5px, -10px);
+  cursor: pointer;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+  padding: 5px 0 0;
+}
+
+.card p {
+  padding: 0 15px 15px;
 }
 
 @media (max-width: 1330px) {
@@ -249,6 +351,27 @@ ul li a:hover {
 
     height: 55%;
   }
+
+  .info {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  #card3 {
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 990px) {
@@ -259,8 +382,8 @@ ul li a:hover {
     padding: 5rem 4rem;
   }
 
-  #div-content-two{
-    padding-top: 0;
+  #div-content-two {
+    padding-top: 5rem;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -308,7 +431,7 @@ ul li a:hover {
     width: 100vw;
     height: 100vh;
 
-    background-color: rgb(34, 59, 92);
+    background-image: url(./imgs/wallpaper-three.png);
 
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
@@ -329,7 +452,7 @@ ul li a:hover {
     align-items: center;
   }
 
-  .main-section h1 a{
+  .main-section h1 a {
     margin: 7% auto 0;
   }
 
@@ -349,6 +472,14 @@ ul li a:hover {
   .div-content img {
     height: 40%;
   }
+
+  #div-content-three {
+    height: 100vh;
+  }
+
+  #div-content-three img {
+    height: 50%;
+  }
 }
 
 @media (max-width: 400px) {
@@ -358,6 +489,11 @@ ul li a:hover {
 
   .div-content {
     height: 115vh;
+  }
+
+  #div-content-two,
+  #div-content-three {
+    height: 130vh;
   }
 }
 
