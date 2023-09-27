@@ -39,7 +39,7 @@ header {
   width: 100%;
   background: linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0)
   );
   backdrop-filter: blur(1rem);
@@ -167,7 +167,6 @@ ul li a:hover {
 
   color: var(--color-terciary);
   background-color: var(--bg-primary);
-  border-bottom: #9d7031 1.5rem solid;
 }
 
 .div-content h1 {
@@ -183,6 +182,10 @@ ul li a:hover {
   box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.37);
 
   height: 60%;
+}
+
+#div-content-two{
+  border-top: 1rem solid #c48b3a;
 }
 
 @media (max-width: 1330px) {
@@ -253,7 +256,13 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
 
-    gap: 0;
+    padding: 5rem 4rem;
+  }
+
+  #div-content-two{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -318,6 +327,10 @@ ul li a:hover {
   .mobile-menu {
     display: flex;
     align-items: center;
+  }
+
+  .main-section h1 a{
+    margin: 7% auto 0;
   }
 
   .section-container {
