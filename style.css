@@ -480,11 +480,6 @@ ul li a:hover {
   #div-content-three img {
     height: 50%;
   }
-
-  #div-content-two,
-  #div-content-three {
-    height: 130vh;
-  }
 }
 
 @media (max-width: 400px) {
@@ -492,8 +487,13 @@ ul li a:hover {
     height: 65rem;
   }
 
-  .div-content {
+  /* .div-content {
     height: 115vh;
+  } */
+
+  #div-content-two,
+  #div-content-three {
+    height: 130vh;
   }
 }
 
