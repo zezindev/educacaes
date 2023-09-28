@@ -272,7 +272,7 @@ ul li a:hover {
 
 .card img {
   border-radius: 0;
-  height: 12rem;
+  width: 25%;
   box-shadow: none;
 }
 
@@ -477,7 +477,7 @@ ul li a:hover {
   .div-content img {
     height: 40%;
   }
-  
+
   #div-content-three img {
     height: 50%;
   }
