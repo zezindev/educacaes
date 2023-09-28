@@ -347,8 +347,6 @@ ul li a:hover {
   }
 
   .div-content img {
-    border-radius: 3rem;
-
     height: 55%;
   }
 
@@ -387,8 +385,8 @@ ul li a:hover {
     display: flex;
     flex-direction: column-reverse;
   }
-  
-  #div-content-two,
+
+  /* #div-content-two,
   #div-content-three {
     height: 140vh;
 
@@ -398,7 +396,7 @@ ul li a:hover {
 
   #div-content-three img {
     height: 50%;
-  }  
+  }   */
 }
 
 @media (max-width: 840px) {
@@ -486,13 +484,23 @@ ul li a:hover {
   }
 }
 
+@media (max-width: 500px) {
+  .div-content {
+    height: 120vh;
+  }
+
+  #div-content-three img {
+    height: 45%;
+  }
+}
+
 @media (max-width: 400px) {
   .container {
     height: 65rem;
   }
 
   .div-content {
-    height: 115vh;
+    height: 150vh;
   }
 }
 
