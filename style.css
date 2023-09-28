@@ -480,15 +480,12 @@ ul li a:hover {
 
   #div-content-one {
     background-image: url(./imgs/wallpaper-one\ -\ Copia.png);
-    background-size: cover;
-    background-attachment: fixed;
   }
 
   #div-content-three {
     background-image: url(./imgs/wallpaper-two\ -\ Copia.png);
-    background-size: cover;
-    background-attachment: fixed;
   }
+
   #div-content-three img {
     height: 50%;
   }
