@@ -477,15 +477,7 @@ ul li a:hover {
   .div-content img {
     height: 40%;
   }
-
-  #div-content-one {
-    background-image: url(./imgs/wallpaper-one\ -\ Copia.png);
-  }
-
-  #div-content-three {
-    background-image: url(./imgs/wallpaper-two\ -\ Copia.png);
-  }
-
+  
   #div-content-three img {
     height: 50%;
   }
