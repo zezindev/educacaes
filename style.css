@@ -385,18 +385,6 @@ ul li a:hover {
     display: flex;
     flex-direction: column-reverse;
   }
-
-  /* #div-content-two,
-  #div-content-three {
-    height: 140vh;
-
-    padding-top: 5rem;
-    padding-bottom: 7rem;
-  }
-
-  #div-content-three img {
-    height: 50%;
-  }   */
 }
 
 @media (max-width: 840px) {
