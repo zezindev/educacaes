@@ -387,6 +387,18 @@ ul li a:hover {
     display: flex;
     flex-direction: column-reverse;
   }
+  
+  #div-content-two,
+  #div-content-three {
+    height: 140vh;
+
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+  }
+
+  #div-content-three img {
+    height: 50%;
+  }  
 }
 
 @media (max-width: 840px) {
@@ -472,22 +484,6 @@ ul li a:hover {
   .div-content img {
     height: 40%;
   }
-
-  /* #div-content-three {
-    height: 100vh;
-  } */
-
-  #div-content-two,
-  #div-content-three {
-    height: 130vh;
-    
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  #div-content-three img {
-    height: 50%;
-  }
 }
 
 @media (max-width: 400px) {
@@ -498,8 +494,6 @@ ul li a:hover {
   .div-content {
     height: 115vh;
   }
-
-  
 }
 
 .nav-list.active {
