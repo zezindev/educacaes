@@ -430,11 +430,11 @@ ul li a:hover {
     z-index: -1;
 
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
 
     background-image: url(./imgs/wallpaper-three.png);
 
-    border-bottom: 1.5rem solid var(--color-primary);
+    border-bottom: 0.7rem solid var(--color-primary);
 
     transform: translateY(-100%);
     transition: transform 0.3s ease-in;
