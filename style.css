@@ -428,7 +428,7 @@ ul li a:hover {
     width: 100vw;
     height: 100vh;
 
-    background-image: url(./imgs/wallpaper-three.png);
+    background-image: url(./imgs/wallpaper-three\ -\ Copia.png);
 
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
@@ -478,6 +478,17 @@ ul li a:hover {
     height: 40%;
   }
 
+  #div-content-one {
+    background-image: url(./imgs/wallpaper-one\ -\ Copia.png);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #div-content-three {
+    background-image: url(./imgs/wallpaper-two\ -\ Copia.png);
+    background-size: cover;
+    background-attachment: fixed;
+  }
   #div-content-three img {
     height: 50%;
   }
