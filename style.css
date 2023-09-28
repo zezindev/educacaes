@@ -494,6 +494,16 @@ ul li a:hover {
   }
 }
 
+@media (max-width: 300px) {
+  .div-content {
+    height: 200vh;
+  }
+
+  #div-content-three img {
+    height: 40%;
+  }
+}
+
 @media (max-width: 400px) {
   .container {
     height: 65rem;
