@@ -434,6 +434,8 @@ ul li a:hover {
 
     background-image: url(./imgs/wallpaper-three.png);
 
+    border-bottom: 1.5rem solid var(--color-primary);
+
     transform: translateY(-100%);
     transition: transform 0.3s ease-in;
   }
