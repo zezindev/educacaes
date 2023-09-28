@@ -495,7 +495,8 @@ ul li a:hover {
   #div-content-three {
     height: 130vh;
     
-    padding: 4rem 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 
