@@ -473,8 +473,16 @@ ul li a:hover {
     height: 40%;
   }
 
-  #div-content-three {
+  /* #div-content-three {
     height: 100vh;
+  } */
+
+  #div-content-two,
+  #div-content-three {
+    height: 130vh;
+    
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   #div-content-three img {
@@ -487,17 +495,11 @@ ul li a:hover {
     height: 65rem;
   }
 
-  /* .div-content {
+  .div-content {
     height: 115vh;
-  } */
-
-  #div-content-two,
-  #div-content-three {
-    height: 130vh;
-    
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
+
+  
 }
 
 .nav-list.active {
