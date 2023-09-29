@@ -91,6 +91,29 @@ ul li a:hover {
   display: none;
 }
 
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-size: 2rem;
+
+  color: var(--color-terciary);
+
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+
+  width: 15rem;
+  padding: 1.5rem 0;
+  margin-top: 7%;
+}
+
+.btn:hover {
+  background-color: #9d7031;
+}
+
 .main-section {
   height: 100vh;
   width: 100%;
@@ -135,10 +158,10 @@ ul li a:hover {
   color: var(--color-terciary);
 
   background-color: var(--color-primary);
-  padding: 1rem;
   border-radius: 0.5rem;
 
   width: 30rem;
+
   padding: 1.5rem 0;
   margin-top: 7%;
 }
@@ -294,6 +317,52 @@ ul li a:hover {
 .card p {
   font-size: var(--fs-body);
   padding: 0 15px 15px;
+}
+
+.div-content-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100%;
+
+  padding: 0 15%;
+  font-family: var(--ff-all);
+  color: var(--color-terciary);
+
+  background-image: url(./imgs/wallpaper-four.png);
+  border-bottom: 1rem solid var(--color-primary);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.div-content-five h1 {
+  margin: 10rem 0 10rem;
+  font-size: var(--fs-header-sm);
+}
+
+.video-container {
+  position: relative;
+  height: 100%;
+  width: 70%;
+
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  margin: auto;
+  width: 100%;
+  height: 70%;
+
+  border-radius: 3rem;
+  box-shadow: 0 0.8rem 3.2rem 0 rgba(0, 0, 0, 0.37);
+
 }
 
 @media (max-width: 1330px) {
@@ -469,7 +538,7 @@ ul li a:hover {
   }
 
   .div-content {
-    height: 150vh;
+    height: 200vh;
   }
 
   .div-content h1 {
@@ -503,6 +572,15 @@ ul li a:hover {
     background-image: url(./imgs/wallpaper-two.png);
     background-size: auto;
     background-attachment: fixed;
+  }
+
+  .video-container {
+    height: 90%;
+    width: 100%;
+  }
+
+  .div-content-five {
+    padding: 0 5%;
   }
 }
 
